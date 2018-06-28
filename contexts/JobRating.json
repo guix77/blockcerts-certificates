@@ -1,9 +1,11 @@
 {
-  "@context": "http://schema.org",
-  "@type": "@type",
-  "talao": "https://w3id.org/talao#",
-  "jobRating": {
-    "@id": "talao:jobRating",
-    "@type": "Rating"
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "talao": "https://w3id.org/talao#",
+    "jobRating": {
+      "@id": "talao:jobRating",
+      "@type": "Rating"
+    }
   }
 }
