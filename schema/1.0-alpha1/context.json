@@ -6,122 +6,100 @@
     "docType": {
       "@id": "talao:docType",
       "@type": "integer",
-      "description": "Document type",
       "minimum": 1
     },
     "jobDescription": {
       "@id": "talao:jobDescription",
-      "@type": "string",
-      "description": "Description of the job"
+      "@type": "string"
     },
     "jobDuration": {
       "@id": "talao:jobDuration",
       "@type": "integer",
-      "description": "Job duration in days",
       "minimum": 1
     },
     "jobPartner": {
       "@id": "talao:jobPartner",
-      "@type": "integer",
-      "description": "Partner ID"
+      "@type": "integer"
     },
     "jobReserved": {
       "@id": "talao:jobReserved",
-      "@type": "integer",
-      "description": "Reserved integer for future use"
+      "@type": "integer"
     },
     "jobRating1": {
       "@id": "talao:jobRating1",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobRating2": {
       "@id": "talao:jobRating2",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobRating3": {
       "@id": "talao:jobRating3",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobRating4": {
       "@id": "talao:jobRating4",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobRating5": {
       "@id": "talao:jobRating5",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobRating6": {
       "@id": "talao:jobRating6",
       "@type": "integer",
-      "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
     },
     "jobSkill1": {
       "@id": "talao:jobSkill1",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill2": {
       "@id": "talao:jobSkill2",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill3": {
       "@id": "talao:jobSkill3",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill4": {
       "@id": "talao:jobSkill4",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill5": {
       "@id": "talao:jobSkill5",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill6": {
       "@id": "talao:jobSkill6",
-      "@type": "string",
-      "title": "The Jobskill6 Schema",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill7": {
       "@id": "talao:jobSkill7",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill8": {
       "@id": "talao:jobSkill8",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill9": {
       "@id": "talao:jobSkill9",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     },
     "jobSkill10": {
       "@id": "talao:jobSkill10",
-      "@type": "string",
-      "description": "Skill demonstrated in this job"
+      "@type": "string"
     }
   }
 }
