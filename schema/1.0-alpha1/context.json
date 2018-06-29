@@ -2,90 +2,91 @@
   "@context": {
     "id": "@id",
     "type": "@type",
+    "schema": "http://schema.org/",
     "talao": "https://w3id.org/talao#",
     "docType": {
       "@id": "talao:docType",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobDescription": {
       "@id": "talao:jobDescription",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobDuration": {
       "@id": "talao:jobDuration",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobPartner": {
       "@id": "talao:jobPartner",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobReserved": {
       "@id": "talao:jobReserved",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating1": {
       "@id": "talao:jobRating1",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating2": {
       "@id": "talao:jobRating2",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating3": {
       "@id": "talao:jobRating3",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating4": {
       "@id": "talao:jobRating4",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating5": {
       "@id": "talao:jobRating5",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobRating6": {
       "@id": "talao:jobRating6",
-      "@type": "Integer"
+      "@type": "schema:Integer"
     },
     "jobSkill1": {
       "@id": "talao:jobSkill1",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill2": {
       "@id": "talao:jobSkill2",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill3": {
       "@id": "talao:jobSkill3",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill4": {
       "@id": "talao:jobSkill4",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill5": {
       "@id": "talao:jobSkill5",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill6": {
       "@id": "talao:jobSkill6",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill7": {
       "@id": "talao:jobSkill7",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill8": {
       "@id": "talao:jobSkill8",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill9": {
       "@id": "talao:jobSkill9",
-      "@type": "String"
+      "@type": "schema:String"
     },
     "jobSkill10": {
       "@id": "talao:jobSkill10",
-      "@type": "String"
+      "@type": "schema:String"
     }
   }
 }
