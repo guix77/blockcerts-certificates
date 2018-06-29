@@ -5,8 +5,7 @@
     "talao": "https://w3id.org/talao#",
     "docType": {
       "@id": "talao:docType",
-      "@type": "integer",
-      "minimum": 1
+      "@type": "integer"
     },
     "jobDescription": {
       "@id": "talao:jobDescription",
@@ -14,8 +13,7 @@
     },
     "jobDuration": {
       "@id": "talao:jobDuration",
-      "@type": "integer",
-      "minimum": 1
+      "@type": "integer"
     },
     "jobPartner": {
       "@id": "talao:jobPartner",
@@ -27,39 +25,27 @@
     },
     "jobRating1": {
       "@id": "talao:jobRating1",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobRating2": {
       "@id": "talao:jobRating2",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobRating3": {
       "@id": "talao:jobRating3",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobRating4": {
       "@id": "talao:jobRating4",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobRating5": {
       "@id": "talao:jobRating5",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobRating6": {
       "@id": "talao:jobRating6",
-      "@type": "integer",
-      "minimum": 1,
-      "maximum": 5
+      "@type": "integer"
     },
     "jobSkill1": {
       "@id": "talao:jobSkill1",
