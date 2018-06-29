@@ -1,7 +1,7 @@
 {
   "@context": {
     "id": "@id",
-    "@type": "@type",
+    "type": "@type",
     "talao": "https://w3id.org/talao#",
     "docType": {
       "@id": "talao:docType",
