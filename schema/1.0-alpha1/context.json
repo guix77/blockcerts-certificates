@@ -6,39 +6,33 @@
     "docType": {
       "@id": "talao:docType",
       "@type": "integer",
-      "title": "The Doctype Schema",
       "description": "Document type",
       "minimum": 1
     },
     "jobDescription": {
       "@id": "talao:jobDescription",
       "@type": "string",
-      "title": "The Jobdescription Schema",
       "description": "Description of the job"
     },
     "jobDuration": {
       "@id": "talao:jobDuration",
       "@type": "integer",
-      "title": "The Jobduration Schema",
       "description": "Job duration in days",
       "minimum": 1
     },
     "jobPartner": {
       "@id": "talao:jobPartner",
       "@type": "integer",
-      "title": "The Jobpartner Schema",
       "description": "Partner ID"
     },
     "jobReserved": {
       "@id": "talao:jobReserved",
       "@type": "integer",
-      "title": "The Jobreserved Schema",
       "description": "Reserved integer for future use"
     },
     "jobRating1": {
       "@id": "talao:jobRating1",
       "@type": "integer",
-      "title": "The Jobrating1 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -46,7 +40,6 @@
     "jobRating2": {
       "@id": "talao:jobRating2",
       "@type": "integer",
-      "title": "The Jobrating2 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -54,7 +47,6 @@
     "jobRating3": {
       "@id": "talao:jobRating3",
       "@type": "integer",
-      "title": "The Jobrating3 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -62,7 +54,6 @@
     "jobRating4": {
       "@id": "talao:jobRating4",
       "@type": "integer",
-      "title": "The Jobrating4 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -70,7 +61,6 @@
     "jobRating5": {
       "@id": "talao:jobRating5",
       "@type": "integer",
-      "title": "The Jobrating6 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -78,7 +68,6 @@
     "jobRating6": {
       "@id": "talao:jobRating6",
       "@type": "integer",
-      "title": "The Jobrating6 Schema",
       "description": "Rating from 1 to 5",
       "minimum": 1,
       "maximum": 5
@@ -86,31 +75,26 @@
     "jobSkill1": {
       "@id": "talao:jobSkill1",
       "@type": "string",
-      "title": "The Jobskill1 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill2": {
       "@id": "talao:jobSkill2",
       "@type": "string",
-      "title": "The Jobskill2 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill3": {
       "@id": "talao:jobSkill3",
       "@type": "string",
-      "title": "The Jobskill3 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill4": {
       "@id": "talao:jobSkill4",
       "@type": "string",
-      "title": "The Jobskill4 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill5": {
       "@id": "talao:jobSkill5",
       "@type": "string",
-      "title": "The Jobskill5 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill6": {
@@ -122,25 +106,21 @@
     "jobSkill7": {
       "@id": "talao:jobSkill7",
       "@type": "string",
-      "title": "The Jobskill7 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill8": {
       "@id": "talao:jobSkill8",
       "@type": "string",
-      "title": "The Jobskill8 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill9": {
       "@id": "talao:jobSkill9",
       "@type": "string",
-      "title": "The Jobskill9 Schema",
       "description": "Skill demonstrated in this job"
     },
     "jobSkill10": {
       "@id": "talao:jobSkill10",
       "@type": "string",
-      "title": "The Jobskill10 Schema",
       "description": "Skill demonstrated in this job"
     }
   }
