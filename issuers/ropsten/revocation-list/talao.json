@@ -1,9 +1,0 @@
-{
-  "@context": "https://w3id.org/openbadges/v2",
-  "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/issuers/ropsten/talao.json",
-  "type": "RevocationList",
-  "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/issuers/ropsten/talao.json",
-  "revokedAssertions": [
-  ]
-}
-
