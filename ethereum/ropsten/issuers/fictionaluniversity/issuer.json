@@ -6,12 +6,12 @@
   "type": "Profile",
   "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity.json",
   "name": "Fictional University",
-  "url": "https://guillaumeduveau.com/fictionaluniversity",
-  "introductionURL": "https://guillaumeduveau.com/fictionaluniversity",
+  "url": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/www.md",
+  "introductionURL": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/introduction.md",
   "publicKey": [
     {
-      "id": "ecdsa-koblitz-pubkey:0x010223f25C101C2e66175E83C990D42292364575",
-      "created": "2019-10-17T17:00:00.490752+00:00"
+      "id": "ecdsa-koblitz-pubkey:0x69fdAD6eaaAECDEA9c736f9CbDFB3f4d30e6894c",
+      "created": "2019-10-25T10:51:53.490752+00:00"
     }
   ],
   "revocationList": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/revocation.json",
