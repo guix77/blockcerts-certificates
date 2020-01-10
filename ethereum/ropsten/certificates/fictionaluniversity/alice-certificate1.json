@@ -1,0 +1,96 @@
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/v2",
+    {
+      "displayHtml": {
+        "@id": "https://schemas.learningmachine.com/2017/blockcerts/displayHtml",
+        "@type": "https://schemas.learningmachine.com/2017/types/text/html"
+      },
+      "metadataJson": {
+        "@id": "https://schemas.learningmachine.com/2017/blockcerts/metadata",
+        "@type": "https://schemas.learningmachine.com/2017/types/text/json"
+      },
+      "nonce": {
+        "@id": "https://schemas.learningmachine.com/2017/blockcerts/nonce",
+        "@type": "https://schema.org/Text"
+      },
+      "universalIdentifier": {
+        "@id": "https://schemas.learningmachine.com/2017/blockcerts/identifier",
+        "@type": "https://schema.org/Text"
+      }
+    },
+    {
+      "@vocab": "http://fallback.org/"
+    }
+  ],
+  "id": "urn:uuid:5cc859e5-f13c-4dfd-a974-f5065f803b65",
+  "type": "Assertion",
+  "recipient": {
+    "type": "email",
+    "identity": "alice@example.org",
+    "hashed": false
+  },
+  "issuedOn": "2020-01-10T01:37:59.478Z",
+  "verification": {
+    "type": [
+      "MerkleProofVerification2017",
+      "Extension"
+    ],
+    "publicKey": ""
+  },
+  "badge": {
+    "type": "BadgeClass",
+    "id": "urn:uuid:5ff8c22c-e93f-44dc-844e-f9f46b98c92f",
+    "name": "Certificate #1",
+    "description": "Fictional University delivers this Computer Science MS Degree.",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+    "criteria": {
+      "narrative": "Fictional University delivers this Computer Science MS Degree."
+    },
+    "issuer": {
+      "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/issuer.json",
+      "type": "Profile",
+      "name": "Fictional University",
+      "url": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/www.md",
+      "email": "fictionaluniversity@example.org",
+      "description": "The Fictional University is a fictional university.",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+    },
+    "signatureLines": [
+      {
+        "type": [
+          "SignatureLine",
+          "Extension"
+        ],
+        "jobTitle": "President",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      }
+    ]
+  },
+  "recipientProfile": {
+    "type": [
+      "RecipientProfile",
+      "Extension"
+    ],
+    "name": "Alice",
+    "publicKey": "ecdsa-koblitz-pubkey:0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead"
+  },
+  "displayHtml": "<h1>Computer Science MS Degree, Fictional University</h1>",
+  "signature": {
+    "type": [
+      "MerkleProof2017",
+      "Extension"
+    ],
+    "proof": [],
+    "merkleRoot": "d8031c8b5003490e161a0f9ebcc45cabc8ad40ce679ab70564583e205124a4ad",
+    "targetHash": "d8031c8b5003490e161a0f9ebcc45cabc8ad40ce679ab70564583e205124a4ad",
+    "anchors": [
+      {
+        "type": "ETHData",
+        "sourceId": "0xf8224c9b42fb782b859804a3b9bc6cf9118404d9cbef3efc846865cd931ac1a6",
+        "chain": "ethereumRopsten"
+      }
+    ]
+  }
+}
