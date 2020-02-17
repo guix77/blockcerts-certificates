@@ -2,7 +2,7 @@
   "@context": "https://w3id.org/openbadges/v2",
   "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/revocation.json",
   "type": "RevocationList",
-  "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity.json",
+  "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/issuer.json",
   "revokedAssertions": [
   ]
 }
