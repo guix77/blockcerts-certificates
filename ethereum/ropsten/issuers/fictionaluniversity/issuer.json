@@ -11,7 +11,7 @@
   "introductionURL": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/introduction.md",
   "publicKey": [
     {
-      "id": "0x69fdAD6eaaAECDEA9c736f9CbDFB3f4d30e6894c",
+      "id": "ecdsa-koblitz-pubkey:0x69fdAD6eaaAECDEA9c736f9CbDFB3f4d30e6894c",
       "created": "2019-10-25T10:51:53.490752+00:00"
     }
   ],
