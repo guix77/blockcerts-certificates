@@ -1,9 +1,13 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
-  "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/revocation.json",
+  "id": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/seameoinnotech/revocation.json",
   "type": "RevocationList",
-  "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/fictionaluniversity/issuer.json",
+  "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/seameoinnotech/issuer.json",
   "revokedAssertions": [
+    {
+      "certificateId": "urn:uuid:5b9cc166-efce-41b2-858f-14d6f6a60d9f",
+      "revocationReason": "Revoked by the Issuer",
+      "id": 3
+    }
   ]
 }
-
