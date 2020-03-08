@@ -5,9 +5,9 @@
   "issuer": "https://raw.githubusercontent.com/guix77/blockcerts-certificates/master/ethereum/ropsten/issuers/seameoinnotech/issuer.json",
   "revokedAssertions": [
     {
-      "certificateId": "urn:uuid:5b9cc166-efce-41b2-858f-14d6f6a60d9f",
+      "certificateId": "urn:uuid:e512c6fb-1458-45d5-b55a-11b6ff9c93cd",
       "revocationReason": "Revoked by the Issuer",
-      "id": 3
+      "id": 4
     }
   ]
 }
